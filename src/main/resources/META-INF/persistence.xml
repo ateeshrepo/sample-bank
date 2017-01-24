@@ -9,7 +9,7 @@
 		<class>com.glarimy.bank.api.Account</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:derby:bank;create=true" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:derby:/Users/achhabda/CMAD_TOOLS/programs/db/bank;create=true" />
 			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.DerbyDialect" />
 		</properties>
